@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.heading-sm{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: black;
+}
+.heading-lg{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+}
+.home-page{
+    /* height: 970px; */
+    width: 100%;
+    background-image: linear-gradient( 358.4deg,  rgba(249,151,119,1) -2.1%, rgb(151, 116, 208) 90% );
+}
+
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.menu ul li a:hover{
+    color: rgb(68, 60, 49)
+}
+
+.home-content{
+    margin-top: 10rem;
+}
+.home-content .para p{
+    color: white;
+}
+.home-content .button button{
+    width: 130px;
+    height: 60px;
+    border: none;
+}
+.home-content .button a{
+    color: black;
+}
+.home-content .button button:hover{
+    background: rgb(175, 130, 115);
+}
+.home-content .image img{
+    width: 450px;
+    height: 350px;
+    margin-top: 3rem;
+}
+
+.sub-menu{
+    display: none;
+}
+.menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -50px;
+}
+.menu ul li:hover .sub-menu ul{
+    display: block;
+    padding: 20px 10px;
+}
+.menu ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px 10px;
+    text-align: left;
+}
+.sub-menu ul li a:hover{
+    color: lightcoral;
+}
+    /* #################about############ */
+
+.about{
+    /* height: 750px; */
+    background: rgba(0, 0, 0, 0.948);
+    /* position: relative; */
+}
+.about-image-1 img,
+.about-image-2 img{
+    width: 470px;
+}
+.about-image-1{
+    
+    padding-top: 1.5rem;
+}
+.about-image-2{
+    transform: translate(150px,-150px);
+    /* transform: translateX(150px); */
+    /* position: absolute;
+    top:   230px;
+    left: 150px; */
+}
+.about-text{
+    font-size: 1.5rem;
+    color: lightcoral;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+.about-heading{
+    font-size: 3.8rem;
+    color: white;
+    font-weight: 600;
+}
+.about-para{
+    color: white;
+}
+.about-icons i{
+    font-size: 3rem;
+    color: lightcoral;
+}
+.experience-number{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.experience-text{
+    color: white;
+    font-weight: 500;
+}
+.about button{
+    width: 150px;
+    height: 60px;
+}
+.about button:hover{
+    background: lightpink ;
+}
+
+/* ###########services################# */
+.services{
+    background: black;
+}
+
+.row h6{
+    color: lightcoral;
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+}
+.row h2{
+    font-size: 3.8rem;
+    color: #fff;
+    font-weight: 600;
+}
+.row p{
+    color: gray;
+}
+.service-box{
+    border: 1px solid #777;
+    padding: 35px 30px;
+    transition: all 0.3s ease-in;
+}
+.service-box:hover{
+    border-color: lightcoral;
+    cursor: pointer;
+}
+.service-box-icon{
+    margin: 20px 0px;
+}
+.service-box-icon i{
+    font-size: 2.6rem;
+    color: lightcoral
+}
+.service-box-heading{
+    margin: 15px 0px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.service-box-text{
+    color: #fff;
+}
+.theme-link{
+    color: lightcoral;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+}
+.theme-link:hover{
+    color: #fff;
+}
+
+/* ###########our-services######## */
+
+.our-services{
+    /* height: 100vh; */
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+}
+.our-service-box{
+    background: black;
+    padding: 2.5rem 2rem;
+}
+.our-service-box-icon{
+    font-size: 3rem;
+    color: lightcoral;
+}
+.our-service-box-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+.our-service-content{
+    margin: 5rem 2rem;
+}
+.our-service-box-text{
+    color: #fff;
+    padding-top: 1.5rem;
+}
+.our-service-text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: orangered;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+.our-service-heading h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 1rem;
+}
+.our-service-para{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: black;
+    margin-top: 2rem;
+}
+.service-detail-1{
+    font-weight: 300;
+    margin-top: 2rem;
+}
+
+.service-detail-1 span{
+    color: orangered;
+    padding-right: 1rem;
+}
+
+/* ##########our-vision####### */
+
+.our-vision{
+    background: black;
+    padding: 3rem;
+    padding: 3rem 0;
+    
+}
+.vision{
+    font-size: 1.2rem;
+    color: coral;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+.vision-para{
+    color: #fff;
+    font-weight: 300;
+}
+.vision-heading{
+    font-weight: 700;
+    font-size: 3.8rem;
+}
+.vision-icon{
+    font-size: 2rem;
+    color: coral;
+    margin-right: 1.5rem;
+}
+.vision-text h3{
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.our-vision img{
+    width: 100%;
+    height: 700px;
+}
+
+/* ###########clients########### */
+
+.client{
+    /* height: 600px; */
+    background: rgb(8, 8, 8);
+    padding: 5rem 0;
+}
+.client-text h6{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: lightcoral;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+.client-heading h1{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 2rem 0;
+}
+.clients-logo img{
+    height: 140px;
+    width: 180px;
+}
+
+/* ############expert-team########### */
+.experts-team{
+    /* height: 900px; */
+    background: black;
+    padding-top: 4rem;
+}
+
+.expert-text{
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: lightcoral;
+    letter-spacing: 0.3rem;
+}
+.expert-heading{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 1rem;
+}
+.expert-para{
+    color: #fff;
+    font-weight: 400;
+}
+.expert-image{
+    position: relative;
+}
+.expert-image img{
+    height: 550px;
+    width: 410px;
+    transition: all 0.5s ease-in-out;
+}
+.expert-image img:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+.expert-detail{
+    position: absolute;
+    opacity: 0;
+}
+.expert-image:hover .expert-detail{
+    transform: translateY(-200px);
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+}
+.expert-name{
+    color: white;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.expert-work{
+    color: white;
+    font-weight: 500;
+    padding-top: 0.5rem;
+}
+.expert-social-link{
+    padding: 0 8rem;
+}
+.expert-detail i{
+    font-size: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+}
+
+/* ###########ardsticles######### */
+
+.articles{
+    /* height: 800px; */
+    background: rgb(10, 10, 10);
+}
+.article-detail{
+    background: rgb(28, 28, 28);
+    padding: 2rem;
+}
+.article-para{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.article-para a{
+    color: white;
+}
+.article-para a:hover{
+    color: white;
+}
+.article-text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+}
+.article-more a{
+    color: lightcoral;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.article-more a:hover{
+    color: lightcoral;
+}
+.article-more i{
+    padding-left: 15rem;
+    color: #777;
+}
+.article-more span{
+    color: #777;
+}
+
+/* ############subscribe############## */
+
+.subscribe-column{
+    /* height: 450px; */
+    background: black;
+    /* padding: 2rem 0; */
+}
+.subscribe-bar{
+    /* height: 30px; */
+    /* padding: 4rem 0; */
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+}
+.subscribe-text{
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+}
+.subscribe-bar input{
+    height: 50px;
+}
+.subscribe-bar button{
+    width: 130px;
+    height: 50px;
+    font-size: 1.2rem;
+    border: none;
+    background: black;
+    color: white;
+}
+
+/* #############footer############ */
+.footer{
+    /* height: 500px; */
+    background: rgb(10, 10, 10);
+}
+.footer .para{
+    color: white;
+}
+.footer-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.addresses{
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 0.4rem 0;
+}
+.addresses:hover,
+.links:hover{
+    color: lightcoral;
+    cursor: pointer;
+}
+.links{
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.4rem 0;
+}
+.follow-link-icons{
+    border-radius: 50px;
+    background:white;
+    margin-right: 0.5rem;
+    
+}
+.follow-link-icons i{
+    font-size: 1rem;
+    width:60px;
+    color: black;
+    padding:  1.2rem 1.5rem;
+}
+.copyright{
+    border-top: 2px solid white;
+    margin-top: 5rem;
+}
+.copyright-text{
+    color: white;
+}
+
+/* #######about########### */
+.about-us-text{
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+    padding: 2rem;
+}
+
+/* ##########about-service############# */
+
+.about-services{
+    background: black;
+}
+.about-services-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: lightcoral;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+.about-services-heading h1{
+    font-size: 3.8rem;
+    color: white;
+    font-weight: 600;
+}
+.about-services-image-1 img{
+    width: 600px;
+}
+.about-services-image-2 img{
+    width: 600px;
+    padding-top: 8rem;
+}
+.about-services button{
+    width: 150px;
+    height: 60px;
+}
+.about-services button:hover{
+    background: black;
+    border: 1px solid bisque;
+}
+.about-services button a{
+    color: black;
+}
+.about-services a:hover{
+    color: white;
+}
+.about-services button:hover a{
+    color: white;
+}
+.about-services-para{
+    color: white;
+    font-weight: 400;
+}
+
+/* ######### aboutexperience############# */
+
+.about-experience{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(55, 68, 56) 0%, rgb(17, 35, 25) 100.2% );    /* position: relative; */
+    padding-bottom: 13rem;
+    padding-top: 4rem;
+}
+.about-experience-icon i{
+    border: 2px solid white;
+    width: 60px;
+    height: 60px;
+    padding: 1.2rem 0;
+    border-radius: 50px;
+    background: white;
+}
+
+/* ##################about-records############## */
+
+.about-records{
+    background: black;   
+}
+.about-records-row .row {
+    position: relative;
+    bottom: 100px;
+}
+.about-record-icon i{
+    font-size: 2rem;
+    color: lightcoral;
+}
+.record-heading{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+}
+.record-para{
+    color: white;
+    font-weight: 400;
+}
+.form-width{
+    height: 50px;
+}
+.form-width-1{
+    height: 50px;
+    }
+.form-width-2{
+    height: 180px;
+}
+.about-form-detail-2 a{
+    text-decoration: none;
+    color: black;
+}
+.about-form-detail-2 a:hover{
+    cursor: pointer;
+}
+.about-form-detail-2 button{
+    width: 150px;
+    height: 60px;
+    margin: 1rem 0;
+}
+.about-form-detail-2 button:hover{
+    background: black;
+    border: 2px solid white;
+}
+.about-form-detail-2 button:hover a{
+    color: white;
+}
+
+/* ###############question bar################## */
+
+.question-bar{
+    background: black;
+    padding: 3rem 0;
+}
+.question-text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: lightcoral;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+.question-heading{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.question-button{
+    height: 50px;
+    background: transparent;
+    color: white;
+    text-align: left;
+    padding-left: 1rem;
+    border: 1px solid white;
+}
+.question-button i{
+    color: lightcoral;
+    float: right;
+    padding-right: 1rem;
+}
+
+/* #############contact-type############# */
+
+.contact-type{
+    background: rgb(24, 23, 23);
+    padding-bottom: 15rem;
+    padding-top: 5rem;
+    
+}
+.address-icon{
+    font-size: 2.5rem;
+    color: lightcoral;
+}
+.address-text{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+}
+.address-address{
+    font-weight: 400;
+    color: white;
+}
+.address{
+    padding: 3rem 0;
+    background: black;
+    border: 1px solid #777;
+}
+.address:hover{
+    cursor: pointer;
+    border: 1px solid lightcoral;
+}
+
+/* ##############for-contact############# */
+.for-contact .about-form{
+    background: black;
+
+}
+.for-contact input{
+    background: black;
+    border: 1px solid white;
+}
+.for-contact textarea{
+    background: black;
+    border: 1px solid white;
+}

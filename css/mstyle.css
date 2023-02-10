@@ -1,0 +1,228 @@
+
+
+@media (min-width: 990px) and (max-width: 1200px){
+    /* .home-content .image img{
+        width: 360px;
+        height: 380px;
+    } */
+    .home-content h1{
+        font-size: 2.8rem;
+    }
+
+    /* ##########about####### */
+    .about .row{
+        display: flex;
+    }
+    .services h1{
+        font-size: 2.8rem;
+        padding-right:2rem;
+    }
+    .expert-image img{
+        width: 300px;
+        height: 350px;
+        padding-top: 1rem;
+        /* padding-left: 1.5rem; */
+    }
+    .expert-heading{
+        font-size: 3rem;
+    }
+    .about-services-image-1 img{
+        height: 500px;
+        width: 450px;
+    }
+    .about-services-image-2 img{
+        height: 500px;
+        width: 450px;
+        padding-top: 1rem;
+    }
+    .about-form-detail-1{
+        padding-top: 3rem;
+    }
+    .about-form-detail-2 button{
+        margin-top: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 989px){
+    /* .home-page{
+        height: 940px;
+    } */
+    .home-content h1{
+        font-size: 2rem;
+    }
+    .our-service-box{
+        padding-bottom: 3rem;
+    }
+    .vision-image img{
+        height: 300px;
+    }
+    .expert-image img{
+        width: 200px;
+        height: 250px;
+    }
+    .article-para{
+        font-size: 1rem;
+    }
+    .subscribe-text{
+        font-size: 2.2rem;
+    }
+    .subscribe-bar input{
+        width: 800px;
+    }
+    .footer-heading{
+        font-size: 1.5rem;
+    }
+    .footer-link-icons i{
+        width: 20px;
+    }
+    .about-services-image-1 img{
+        height: 500px;
+        width: 700px;
+    }
+    .about-services-image-2 img{
+        height: 500px;
+        width: 700px;
+        padding-top: 1rem;
+    }
+    .about-form{
+        margin-top: 1rem;
+    }
+    .about-form-detail-1{
+        padding-top: 2rem;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 769px){
+    .home-content h1{
+        font-size: 2.8rem;
+    }
+    .vision-image img{
+        height: 300px;
+    }
+    .article-1{
+        padding-bottom: 2rem;
+    }
+    .article-para{
+        font-size: 1.5rem;
+    }
+    /* #############about############# */
+    .about-heading{
+        font-size: 3rem;
+    }
+    .client-heading h1{
+        font-size: 3rem;
+    }
+    .clients-logo img{
+        width: 100px;
+        height: 60px;
+    }
+    .expert-image img{
+        width: 150px;
+        height: 250px;
+    }
+    .subscribe-text{
+        font-size: 1.5rem;
+    }
+    .about-us-text{
+        font-size: 3rem;
+    }
+    .service-box{
+        margin-top: 2rem;
+    }
+    .about-services-image-1 img{
+        height: 500px;
+        width: 500px;
+    }
+    .about-services-image-2 img{
+        height: 500px;
+        width: 500px;
+        padding-top: 1rem;
+    }
+    .about-form{
+        margin-top: 1rem;
+    }
+    .about-form-detail-1{
+        padding-top: 2rem;
+    }
+    .address{
+        margin: 1rem;
+    }
+}
+@media (max-width: 575px) {
+    .home-page h1{
+        font-size: 2rem;
+    }
+    .home-content h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    /* .home-content img{
+        width: 100px;
+    } */
+    .about-image-1 img{
+        width: 350px;
+    }
+    .vision-image img{
+        height: 300px;
+    }
+    .vision-heading h2{
+        font-size: 2rem;
+    }
+    .service-detail-1{
+        font-size: 0.8rem;
+    }
+    .our-service-heading h1{
+        font-size: 2rem;
+    }
+    .our-service-box{
+        margin-bottom: 1rem;
+    }
+    .services h2{
+        font-size: 2rem;
+    }
+    .client-heading h1{
+        font-size: 2rem;
+    }
+    .clients-logo img{
+        width: 60px;
+        height: 40px;
+    }
+    .expert-image img{
+        width: 350px;
+        height: 300px;
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+    }
+    .article-1{
+        padding-bottom: 1.5rem;
+    }
+    .expert-heading{font-size: 2.5rem;}
+    .subscribe-text{
+        font-size: 1.5rem;
+    }
+    .service-box{
+        margin-top: 2rem;
+    }
+    .about-services-image-1 img{
+        height: 400px;
+        width: 360px;
+        /* padding:0 0.5rem; */
+    }
+    .about-services-image-2 img{
+        padding-top: 1rem;
+        height: 400px;
+        width: 360px;
+    }
+    .about-form{
+        margin-top: 1rem;
+    }
+    .address{
+        margin: 1rem;
+    }
+    .question-heading{
+        font-size: 2rem;
+    }
+    .about-services-heading h1{
+        font-size: 3rem;
+    }
+}
